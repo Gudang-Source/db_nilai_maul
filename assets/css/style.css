@@ -1,0 +1,163 @@
+body{
+  font: 13pt 'trebuchet ms';
+}
+.header{
+  background: #08A2A0;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.btn-menu{
+  margin: 5px;
+  padding: 2px;
+}
+.content{
+  background: #fff;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.content-font{
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.footer{
+  background: black;
+  width: 100%;
+  height: auto;
+  color: white;
+  float: left;
+}
+body {
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	margin: auto;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.header {
+/*	background-color: #f1f1f1;*/
+  	text-align: center;
+}
+.menu {
+  	overflow: hidden;
+  	background-color: #333;
+}
+.menu a {
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+.menu a:hover:not(.active) {
+ 	background-color: #ddd;
+	color: black;
+}
+.active {
+	background-color: #02A8A0;
+}
+.kiri {
+  	float: left;
+	background-color: aliceblue;
+  	width: 28%;
+	height: 46%;
+}
+.kanan {
+	background-color: #02A8A0;
+	float: right;
+  	width: 72%;
+	height: 100%;
+}
+.kirikuyy {
+  	float: left;
+	background-color: cyan;
+  	width: 28%;
+	height: 54%;
+}
+.footer {
+	background-color: #333;
+	float: left;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+input[type=text], input[type=password], input[type=number], input[type=email], select, option {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 18px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.label {
+  	font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+    background-color: #006CFF;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 1px;
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5 {
+	padding: 5px;
+}
+p.mar {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+p {
+	padding: 5px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 17px;
+}
+fieldset {
+	margin: 2%;
+}
+div.gallery {
+  	margin: 27px;
+  	border: 1px solid #ccc;
+	text-align: center;
+  	width: 150px;
+}
+div.gallery:hover {
+  	border: 1px solid #777;
+}
+div.gallery img {
+  	width: 100%;
+  	height: auto;
+}
+div.deskripsi {
+	background-color: #fff;
+  	padding: 10px;
+  	text-align: center;
+}
+table {
+		margin-top: 5px;
+		border-spacing: 0;
+		border-collapse: collapse;
+}
+td, th {
+		padding: 0;
+}
+.table-bordered th, .table-bordered td {
+	border: 1px solid #ddd;
+}
+.table {
+		border-collapse: collapse;
+}
+.textarea{
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 17px;
+}
